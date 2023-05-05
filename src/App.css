@@ -132,6 +132,11 @@
 	color: #b18828;
 }
 
+.text {
+	font-size: larger;
+	color: #646cffaa;
+}
+
 .stats-container {
 	display: flex;
 	align-items: center;

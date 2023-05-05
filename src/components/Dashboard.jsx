@@ -18,15 +18,15 @@ const Dashboard = () => {
 					{results.map(el => (
 						<li key={v4()}>
 							<h6 className='date'>{new Date(el.date).toDateString()}</h6>
-								<h6 style={{ color: '#a8aef8' }}>{el.player1_name}</h6>
-								<h6>HP: {el.hp1}</h6>
-								<h6>Score: {el.score1}</h6>
-								<hr />
-								<h6 style={{ color: '#a8aef8' }}>{el.player2_name}</h6>
-								<h6>HP: {el.hp2}</h6>
-								<h6>{el.score2}</h6>
-								<hr />
-								<h6>{el.winner}</h6>
+							<h6 style={{ color: '#a8aef8' }}>{el.player1_name}</h6>
+							<h6>HP: {el.hp1}</h6>
+							<h6>Score: {el.score1}</h6>
+							<hr />
+							<h6 style={{ color: '#a8aef8' }}>{el.player2_name}</h6>
+							<h6>HP: {el.hp2}</h6>
+							<h6>Score: {el.score2}</h6>
+							<hr />
+							<h6 style={{ color: '#a8aef8' }}>{el.winner}</h6>
 						</li>
 					))}
 				</ul>

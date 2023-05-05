@@ -22,14 +22,17 @@ const Play = ({ state, name1, name2 }) => {
 			</div>
 
 			<div>
-				{state.text && <h2>{state.text}</h2>}
+				{state.text && <h2 className='text'>{state.text}</h2>}
 				{state.check_won && (
 					<>
-						<img src='src/assets/won.jpeg' alt='' />
-						<h2>Congrats! You won!</h2>
+						<img src='/won.jpeg' alt='' />
 					</>
 				)}
-				{state.check_lost && <img src='src/assets/lost.jpeg' alt='' className='winner' />}
+				{state.check_lost && (
+					<>
+						<img src='/lost.jpeg' alt='' className='winner' />
+					</>
+				)}
 			</div>
 			<Form method='post'>
 				<input type='hidden' name='player1_name' defaultValue={name1} />
