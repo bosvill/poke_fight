@@ -1,7 +1,7 @@
 # poke_fight
 
-Study prontend project
+Study frontend project
 
-[Website]: https://fabulous-pothos-724abf.netlify.app/
+https://fabulous-pothos-724abf.netlify.app/
 
 
